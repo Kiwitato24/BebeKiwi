@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Lane</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   <link rel = "icon" href = "tulip.png">
+</head>
+<body>
+    <header>
+        <h1>Memory Lane</h1>
+        <p>Every year we get older and I'm still on your side.</p>
+    </header>
+    <main>
+        <section class="timeline">
+            <div class="memory" id="memory1">
+                <div class="content">
+                    <h2>1st Christmas & New Year Together!</h2>
+                    <p>Corny since 2019 huhu stop</p>
+                    <button class="more-info" onclick="showModal('modal1')">View Corniness 🌽</button>
+                </div>
+                <div class="image">
+                    <img src="stop.jpg" alt="Mingmong" style="width:250px;height:200px;">
+                    <img src="https://i.pinimg.com/564x/11/c1/2c/11c12cb9392abd041947f62c1f103e61.jpg" alt="Mingmong" style="width:250px;height:200px;">
+                </div>
+                </div>
+            </div>
+
+            <div class="memory" id="memory2">
+                <div class="content">
+                    <h2>Our Babies!</h2>
+                    <p>You are a great mom, wubbie.</p>
+                    <button class="more-info" onclick="showModal('modal2')">More Babies</button>
+                </div>
+                <div class="image">
+                    <img src="3.jpg" alt="Mingmong" style="width:250px;height:200px;">
+                    <img src="7.jpg" alt="Mingmong" style="width:250px;height:200px;">
+                </div>
+            </div>
+
+            <div class="memory" id="memory3">
+                <div class="content">
+                    <h2>Beans' Birthday!</h2>
+                    <p>Because of you, I love celebrating my birthdays.</p>
+                    <button class="more-info" onclick="showModal('modal3')">Messages from Kiwi</button>
+                </div>
+                <div class="image">
+                     <img src="11.jpg" alt="Mingmong" style="width:250px;height:200px;">
+                    <img src="12.jpg" alt="Mingmong" style="width:250px;height:200px;">
+                </div>
+            </div>
+
+            <div class="memory" id="memory4">
+                <div class="content">
+                    <h2>Kiwi's Birthday!</h2>
+                    <p>More spoils to come ha ha ha ha</p>
+                    <button class="more-info" onclick="showModal('modal4')">Yes to Spoiling Kiwi</button>
+                </div>
+                <div class="image">
+                    <img src="lego.jpg" alt="Anniversary" style="width:250px;height:200px;">
+                    <img src="tinatangi.jpg" alt="Anniversary" style="width:250px;height:200px;">
+                </div>
+            </div>
+
+            <div class="memory" id="memory5">
+                <div class="content">
+                    <h2>Luto Ni Misis</h2>
+                    <p>I wanna tikim (you)</p>
+                    <button class="more-info" onclick="showModal('modal5')">PATIKIM</button>
+                </div>
+                <div class="image">
+                    <img src="26.jpg" alt="Anniversary" style="width:250px;height:200px;">
+                    <img src="27.jpeg" alt="Anniversary" style="width:250px;height:200px;">
+                </div>
+            </div>
+
+     <div class="memory" id="memory6">
+                <div class="content">
+                    <h2>1st Anniversary!</h2>
+                    <p>Where'd all the time go?</p>
+                    <button class="more-info" onclick="showModal('modal6')">2020 Kinder</button>
+                </div>
+                <div class="image">
+                    <img src="first.webp" alt="First Meeting" class="center" style="width:500px;height:300px;">
+                </div>
+            </div>
+
+              <div class="memory">
+                <div class="content">
+                    <h2>2nd Christmas & New Year Together!</h2>
+                    <p>Spoiler Alert: Someone maoy-ed on the 3rd Christmas</p>
+                </div>
+                <div class="image">
+                    <img src="28.jpg" alt="2nd Christmas">
+                </div>
+            </div>
+              <div class="memory" id="memory7">
+                <div class="content">
+                    <h2>2nd Anniversary!</h2>
+                    <p>WOOOOOOW 2 YEARS WITH YOU</p>
+                    <button class="more-info" onclick="showModal('modal7')">Gift</button>
+                </div>
+                <div class="image">
+                    <img src="28.jpg" alt="First Meeting"style="width:500px;height:300px;">
+                </div>
+            </div>
+
+              <div class="memory" id="memory8">
+                <div class="content">
+                    <h2>No 3rd Christmas Together :<</h2>
+                    <p>So mean, Odette. 😡</p>
+                    <button class="more-info" onclick="showModal('modal8')">View Pangungulila</button>
+                </div>
+                <div class="image">
+                    <img src="https://i.pinimg.com/564x/cb/6e/ce/cb6eceef60f45994ea339900813f868c.jpg" alt="First Meeting"style="width:250px;height:250px;">
+                    <img src="https://i.pinimg.com/564x/a8/1c/eb/a81cebf82030da14bc230ac4fcd2a1ab.jpg" alt="First Meeting"style="width:250px;height:250px;">
+                </div>
+            </div>
+
+              <div class="memory" id="memory1">
+                <div class="content">
+                    <h2>3rd Anniversary!</h2>
+                    <p>BFF ERA HAHAHHAHAHAH</p>
+                    <button class="more-info" onclick="showModal('modal9')">View This Era</button>
+                </div>
+                <div class="image">
+                    <img src="31.jpg" alt="meow" style="width:300px;height:300px;">
+                    <img src="32.jpg" alt="meow" style="width:200px;height:300px;">
+                </div>
+                </div>
+            </div>
+              <div class="memory" id="memory10">
+                <div class="content">
+                    <h2>4th Anniversary!</h2>
+                    <p>Wedding Anniversary naman next.</p>
+                    <button class="more-info" onclick="showModal('modal10')">Dress ni Kiwi</button>
+                </div>
+                <div class="image">
+                    <img src="dress1.jpg" alt="Dress" style="width: 600px;height:300px;">
+                </div>
+        </section>
+    </main>
+    
+    <!-- Modals -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <h2>Christmas & New Year With Me</h2>
+            <p>Corny so much</p>
+             <img src="8.jpg" alt="Corn" style="width:500px;height:200px;">
+             <img src="9.jpg" alt="Corn" style="width:500px;height:80px;">
+        </div>
+    </div>
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <h2>Our Littol Langga Langga.</h2>
+            <p>I often think about them meeting each other.</p>
+             <img src="1.jpeg" alt="Mingmong" style="width:200px;height:200px;">
+             <img src="2.jpg" alt="Mingmong" style="width:200px;height:200px;">
+             <img src="3.jpg" alt="Mingmong" style="width:200px;height:200px;">
+             <img src="5.jpg" alt="Mingmong" style="width:200px;height:200px;">
+             <img src="6.jpg" alt="Mingmong" style="width:200px;height:200px;">
+             <img src="7.jpg" alt="Mingmong" style="width:200px;height:200px;">
+        </div>
+    </div>
+</div>
+   
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal3')">&times;</span>
+            <h2>Messages from Kiwi</h2>
+            <p>Thank you, baby. I appreciate it so much.</p>
+            <img src="13.jpg" alt="Mingmong" style="width:500px;height:180px;"> 
+            <img src="14.jpg" alt="Mingmong" style="width:500px;height:150px;">
+            <img src="15.jpg" alt="Mingmong" style="width:500px;height:140px;">
+            <img src="16.jpg" alt="Mingmong" style="width:500px;height:150px;">
+        </div>
+    </div>
+
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal4')">&times;</span>
+            <h2>Messages for Kiwi</h2>
+            <p>I love spoiling you, please don't tanggi na :((</p>
+            <img src="17.jpg" alt="Mingmong" style="width:500px;height:180px;"> 
+            <img src="18.jpg" alt="Mingmong" style="width:500px;height:130px;"> 
+            <img src="19.jpg" alt="Mingmong" style="width:500px;height:170px;"> 
+        </div>
+    </div>
+
+
+    <div id="modal5" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal5')">&times;</span>
+            <h2>I AM TAKAM</h2>
+            <p>When ko man yan natikman?</p>
+            <img src="26.jpg" alt="Mingmong" style="width:450px;height:300px;"> 
+            <img src="27.jpeg" alt="Mingmong" style="width:450px;height:300px;"> 
+        </div>
+    </div>
+
+
+  <div id="modal6" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal6')">&times;</span>
+        <h2>2019 Us would be shock that we're still together HAHAHAHAHA</h2>
+        <p>Ikaw lang palagi, mahal.</p>
+        <a href="20.jpg" target="_blank"><img src="20.jpg" alt="Mingmong" style="width:150px;height:150px;"></a>
+        <a href="21.jpg" target="_blank"><img src="21.jpg" alt="Mingmong" style="width:150px;height:150px;"></a>
+        <a href="22.jpg" target="_blank"><img src="22.jpg" alt="Mingmong" style="width:150px;height:150px;"></a>
+        <a href="23.jpg" target="_blank"><img src="23.jpg" alt="Mingmong" style="width:150px;height:150px;"></a>
+        <a href="24.jpg" target="_blank"><img src="24.jpg" alt="Mingmong" style="width:150px;height:150px;"></a>
+        <a href="25.jpg" target="_blank"><img src="25.jpg" alt="Mingmong" style="width:150px;height:150px;"></a>
+    </div>
+</div>
+
+  <div id="modal7" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal7')">&times;</span>
+        <h2>YEEYYY 2 YEARS</h2>
+        <p>MORE YEARS WITH YOU PLEASE PLEASE PLEASE</p>
+         <div class="video-container">
+            <video width="500" height="300" controls>
+                <source src="vid1.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    </div>
+</div>
+
+    <div id="modal8" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal8')">&times;</span>
+            <h2>Ramdam ko parin ang pangungulila huhu</h2>
+            <p>I was so relieved that you were okay huhu akong langga</p>
+            <img src="29.jpg" alt="Mingmong" style="width:500px;height:300px;"> 
+            <img src="30.jpg" alt="Mingmong" style="width:500px;height:276px;"> 
+        </div>
+    </div>
+
+    <div id="modal9" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal9')">&times;</span>
+            <h2>BFF & Habulan Era</h2>
+            <p>I think nag break tayo nito wub tas I waited hanggang mag November to ask you if you wanted to try again HAHAHAHHAHA</p>
+            <img src="33.jpg" alt="Mingmong" style="width:600px;height:250px;"> 
+            <img src="34.jpg" alt="Mingmong" style="width:600px;height:250px;"> 
+        </div>
+    </div>
+
+      <div id="modal10" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal10')">&times;</span>
+            <h2>I love you always.</h2>
+            <img src="dress2.jpg" alt="Mingmong" style="width:600px;height:250px;"> 
+            <img src="dress 3.jpg" alt="Mingmong" style="width:600px;height:250px;"> 
+        </div>
+    </div>
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
